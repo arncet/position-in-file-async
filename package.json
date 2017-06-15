@@ -1,5 +1,5 @@
 {
-  "name": "position-in-file-async-async",
+  "name": "position-in-file-async",
   "version": "1.0.0",
   "description": "A node.js util to find asynchronously element position on a file list",
   "main": "index.js",
