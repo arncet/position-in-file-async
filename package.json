@@ -1,0 +1,48 @@
+{
+  "name": "position-in-file-async-async",
+  "version": "1.1.1",
+  "description": "A node.js util to find asynchronously element position on a file list",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js;",
+    "test": "./node_modules/mocha/bin/mocha;",
+    "copy-readme": "cp -R README.md dist/",
+    "copy-package": "cp -R package.json dist/",
+    "copy-src": "cp -R ./src/* dist/",
+    "pub": "rm -rf dist && mkdir dist && npm run lint && npm run test && npm run copy-readme && npm run copy-package && npm run copy-src && cd dist && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arncet/position-in-file-async.git"
+  },
+  "keywords": [
+    "position",
+    "search",
+    "find",
+    "file",
+    "line",
+    "column",
+    "async",
+    "node"
+  ],
+  "author": "Arnaud CETOUTE <arnaud.cetoute@hotmail.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arncet/position-in-file-async/issues"
+  },
+  "homepage": "https://github.com/arncet/position-in-file-async#readme",
+  "dependencies": {
+    "ext-name": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^7.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^3.3.0"
+  }
+}
