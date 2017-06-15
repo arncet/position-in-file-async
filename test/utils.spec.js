@@ -39,7 +39,8 @@ describe('utils : getGitIgnoreContent', () => {
     expect(gitIgnoreContent[0]).to.be.eql('node_modules')
     expect(gitIgnoreContent[1]).to.be.eql('dist')
     expect(gitIgnoreContent[2]).to.be.eql('.DS_Store')
-    expect(gitIgnoreContent[3]).to.be.eql('')
+    expect(gitIgnoreContent[3]).to.be.eql('npm-debug.log')
+    expect(gitIgnoreContent[4]).to.be.eql('')
   })
 })
 
