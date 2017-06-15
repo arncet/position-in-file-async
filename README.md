@@ -52,10 +52,3 @@ If node doest display deep object you can use [util.inspect](https://nodejs.org/
 ## License :
 
 MIT
-
-
-
-
-
-
-
